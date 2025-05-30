@@ -30,11 +30,6 @@ type ExtractParamOptions<S extends string> =
       : ExtractParamOptions<Rest> // If the string has no parameter type
     : unknown // If the string has no parameters
 
-// "Hello "
-// "name" = Param
-// "! Your last login was {lastLoginDate:date}." = Rest
-// "Hello {name}! Your last login was {lastLoginDate:date}."
-
 export type ParamOptions = {
   date?: Record<string, Intl.DateTimeFormatOptions>
   number?: Record<string, Intl.NumberFormatOptions>
