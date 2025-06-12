@@ -1,5 +1,15 @@
-# React + TypeScript + Vite
+# Solid + TypeScript + Vite
 
+## Extensions
+
+- Fixed some TS  complaints
+- Built a minimal wrapper to use it with Solid and signals.
+- Extension to Plural rules
+  - use words to zero to ten in messages (configurable).
+  - use "zero" message if provided (in English there is no separate zero indicator)
+
+
+## Original Readme
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
