@@ -1,6 +1,6 @@
 # Solid + TypeScript + Vite
 
-## Extensions
+## Solid Extensions
 
 - Fixed some TS  complaints
 - Built a minimal wrapper to use it with Solid and signals.
